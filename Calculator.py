@@ -20,7 +20,7 @@ while True:
         print(f"{a % b = }")
     else:
         print("Invalid operator.")
-    resp = input("Do you wish to continue? y/n:\t").lower()
+    resp = input("Do you wish to continue? y/n:\t").casefold()
     if resp != 'y' and resp != 'yes':
         break
     else:
