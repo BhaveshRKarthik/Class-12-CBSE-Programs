@@ -1,4 +1,4 @@
-import os
+from os import get_terminal_size
 
 while True:
     op = input("Insert operator: (one of +, -, *, /, //, **, %):\t")
@@ -24,4 +24,4 @@ while True:
     if resp != 'y' and resp != 'yes':
         break
     else:
-        print('-' * (os.get_terminal_size().columns - 1))
+        print('-' * (get_terminal_size().columns - 1))
