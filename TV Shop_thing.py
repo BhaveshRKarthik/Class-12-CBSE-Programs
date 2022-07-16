@@ -34,9 +34,9 @@ while True:
 
 print(f"Your total was: ₹{total}")
 if b + c >= 2:
-    if b >= 2:
+    if c >= 2:
         print(f"You got a 25% discount! Your amount is now ₹{total * 0.75}")
-    elif b == 1:
+    elif c == 1:
         print(f"You got a 20% discount! Your amount is now ₹{total * 0.8}")
     else:
         print(f"You got a 15% discount! Your amount is now ₹{total * 0.85}")
